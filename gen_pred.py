@@ -76,8 +76,8 @@ def run_inference(
 
 if __name__ == "__main__":
     data_root = Path("./hw3-data-release")
-    checkpoint = data_root / "maskrcnn_epoch30.pth"
-    output_json = Path("./submission.json")
+    checkpoint = data_root / "maskrcnn_final.pth"
+    output_json = Path("./test-results.json")
     num_classes = 5
     score_thresh = 0.05
 
